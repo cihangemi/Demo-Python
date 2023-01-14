@@ -8,11 +8,13 @@ def fakto(sayi):
     fakt = 1
     for i in range(1,sayi+1):
         fakt *= i
-    print("Sonuç=",fakt)
+    return fakt
 
 
 
 Hello()
 
 cevap = int(input("Hesaplanacak sayi="))
-fakto(cevap)
+
+a=fakto(cevap)
+print(a)
