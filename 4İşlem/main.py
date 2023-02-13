@@ -1,4 +1,10 @@
+
+
 import calc
+#2. import yöntemi
+# 'from calc import * calc' den bütün fonksiyonları alır
+# fonksiyon çağırırken sadece fonksiyon yazmak yeterli
+# örn topla()#
 
 print("Calculator v0.001")
 print("+:Toplama\n-:Çıkarma\n/:Bölme\n*:Çarpma")
